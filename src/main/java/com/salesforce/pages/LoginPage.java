@@ -30,6 +30,7 @@ public class LoginPage extends ProjectSpecificMethods {
 	public HomePage clickOnLogin() {
 		click(locateElement("Login"));
 		reportStep("Login is Clicked", "pass");
+		System.out.println("Login is Clicked");
 		return new HomePage();
 	}
 
