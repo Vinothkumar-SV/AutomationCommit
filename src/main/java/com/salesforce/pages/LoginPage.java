@@ -32,5 +32,10 @@ public class LoginPage extends ProjectSpecificMethods {
 		reportStep("Login is Clicked", "pass");
 		return new HomePage();
 	}
+	public HomePage clickOnLogin2() {
+		click(locateElement("Login"));
+		reportStep("Login is Clicked", "pass");
+		return new HomePage();
+	}
 
 }
